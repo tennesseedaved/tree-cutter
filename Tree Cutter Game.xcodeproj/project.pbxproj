@@ -166,9 +166,8 @@
 		2CDF58A317DC211C00CF4DA1 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF58A217DC211C00CF4DA1 /* cpVect.c */; };
 		2CDF58A917DC211C00CF4DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF58A817DC211C00CF4DA1 /* main.m */; };
 		2CDF58AC17DC211C00CF4DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF58AB17DC211C00CF4DA1 /* AppDelegate.m */; };
-		2CDF58AF17DC211C00CF4DA1 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF58AE17DC211C00CF4DA1 /* HelloWorldLayer.m */; };
 		2CDF58B217DC211C00CF4DA1 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF58B117DC211C00CF4DA1 /* IntroLayer.m */; };
-		2CDF58B417DC211C00CF4DA1 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CDF58B317DC211C00CF4DA1 /* grossini_dance_atlas.png */; };
+		2CDF58BC17DC308700CF4DA1 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF58BB17DC308700CF4DA1 /* MainMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -503,11 +502,10 @@
 		2CDF58A817DC211C00CF4DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CDF58AA17DC211C00CF4DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CDF58AB17DC211C00CF4DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2CDF58AD17DC211C00CF4DA1 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		2CDF58AE17DC211C00CF4DA1 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		2CDF58B017DC211C00CF4DA1 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		2CDF58B117DC211C00CF4DA1 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		2CDF58B317DC211C00CF4DA1 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
+		2CDF58BA17DC308700CF4DA1 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		2CDF58BB17DC308700CF4DA1 /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -568,8 +566,8 @@
 			children = (
 				2CDF58AA17DC211C00CF4DA1 /* AppDelegate.h */,
 				2CDF58AB17DC211C00CF4DA1 /* AppDelegate.m */,
-				2CDF58AD17DC211C00CF4DA1 /* HelloWorldLayer.h */,
-				2CDF58AE17DC211C00CF4DA1 /* HelloWorldLayer.m */,
+				2CDF58BA17DC308700CF4DA1 /* MainMenu.h */,
+				2CDF58BB17DC308700CF4DA1 /* MainMenu.m */,
 				2CDF58B017DC211C00CF4DA1 /* IntroLayer.h */,
 				2CDF58B117DC211C00CF4DA1 /* IntroLayer.m */,
 				2CDF56C117DC211900CF4DA1 /* Resources */,
@@ -594,7 +592,6 @@
 				2CDF56D417DC211900CF4DA1 /* Icon@2x.png */,
 				2CDF56D617DC211900CF4DA1 /* Info.plist */,
 				2CDF56D717DC211900CF4DA1 /* iTunesArtwork */,
-				2CDF58B317DC211C00CF4DA1 /* grossini_dance_atlas.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1127,7 +1124,6 @@
 				2CDF56D517DC211900CF4DA1 /* Icon@2x.png in Resources */,
 				2CDF56D817DC211900CF4DA1 /* iTunesArtwork in Resources */,
 				2CDF582E17DC211B00CF4DA1 /* ChangeLog in Resources */,
-				2CDF58B417DC211C00CF4DA1 /* grossini_dance_atlas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,8 +1272,8 @@
 				2CDF58A317DC211C00CF4DA1 /* cpVect.c in Sources */,
 				2CDF58A917DC211C00CF4DA1 /* main.m in Sources */,
 				2CDF58AC17DC211C00CF4DA1 /* AppDelegate.m in Sources */,
-				2CDF58AF17DC211C00CF4DA1 /* HelloWorldLayer.m in Sources */,
 				2CDF58B217DC211C00CF4DA1 /* IntroLayer.m in Sources */,
+				2CDF58BC17DC308700CF4DA1 /* MainMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1399,6 +1395,7 @@
 				2CDF58B917DC211C00CF4DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
